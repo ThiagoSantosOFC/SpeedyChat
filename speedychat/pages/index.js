@@ -1,18 +1,16 @@
-import Head from 'next/head'
-import prisma from '../lib/prisma';
+import React, { useContext } from "react";
+import { Context } from "../context";
 
+import { useRouter } from "next/router";
 
+import axios from "axios";
 
-export default function Home() {
-  return (
-    <div>
-      <Head>
-        <title>SpeedyChat</title>
-        <meta name="description" content="SpeedyChat | The fastest web chat" />
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
+export default function Auth() {
 
-      
-    </div>
-  )
+  return <div className="background">
+    <div className="auth">
+
+</div>
+
+    </div>;
 }
