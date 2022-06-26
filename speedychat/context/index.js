@@ -12,8 +12,7 @@ export const ContextProvider = (props) => {
     setUsername,
     password,
     setPassword,
-    email
-    setEmail
+ 
   }
   return <Context.Provider value={value}>{props.children}</Context.Provider>
 };
